@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var textField: UITextField!
     
     @IBOutlet var humanYearsLabel: UILabel!
@@ -20,12 +20,17 @@ class ViewController: UIViewController {
         
         print("Button tapped")
         
-        let catYear:Int? = Int(textField.text!)
-        
-        if ((catYear) != nil) {
-            humanYearsLabel.text = "Your cat is " + String(catYear!*7) + " human years old."
+        if (textField.text! != "") {
+            
+            let catYear:Int? = Int(textField.text!)
+            
+            if ((catYear) != nil) {
+                humanYearsLabel.text = "Your cat is \(catYear!*7) cat years old."
+            } else {
+                humanYearsLabel.text = "'" + textField.text! + "' is not an integer. Please try again"
+            }
         } else {
-            humanYearsLabel.text = "'" + textField.text! + "' is not an integer. Please try again"
+            humanYearsLabel.text = ""
         }
     }
     
