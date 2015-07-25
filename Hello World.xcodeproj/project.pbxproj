@@ -12,6 +12,8 @@
 		995F152E1B63684000202618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995F152C1B63684000202618 /* Main.storyboard */; };
 		995F15301B63684000202618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995F152F1B63684000202618 /* Assets.xcassets */; };
 		995F15331B63684000202618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995F15311B63684000202618 /* LaunchScreen.storyboard */; };
+		995F153B1B6372AE00202618 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 995F153A1B6372AE00202618 /* cat.png */; };
+		995F153D1B6373FE00202618 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 995F153C1B6373FE00202618 /* person.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		995F152F1B63684000202618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995F15321B63684000202618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		995F15341B63684000202618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995F153A1B6372AE00202618 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		995F153C1B6373FE00202618 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				995F15281B63684000202618 /* AppDelegate.swift */,
 				995F152A1B63684000202618 /* ViewController.swift */,
+				995F153C1B6373FE00202618 /* person.png */,
+				995F153A1B6372AE00202618 /* cat.png */,
 				995F152C1B63684000202618 /* Main.storyboard */,
 				995F152F1B63684000202618 /* Assets.xcassets */,
 				995F15311B63684000202618 /* LaunchScreen.storyboard */,
@@ -123,7 +129,9 @@
 			files = (
 				995F15331B63684000202618 /* LaunchScreen.storyboard in Resources */,
 				995F15301B63684000202618 /* Assets.xcassets in Resources */,
+				995F153B1B6372AE00202618 /* cat.png in Resources */,
 				995F152E1B63684000202618 /* Main.storyboard in Resources */,
+				995F153D1B6373FE00202618 /* person.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
